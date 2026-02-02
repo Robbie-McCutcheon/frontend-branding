@@ -1,0 +1,66 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 874 >>
+stream
+BT /F1 24 Tf 72 720 Td (Robbie McCutcheon ‚Äî Frontend Workshop Branding) Tj ET
+BT /F1 10 Tf 72 696 Td (Generated: 2026-02-02) Tj ET
+BT
+/F1 12 Tf
+72 680 Td
+(About:) Tj
+0 -16 Td
+(I am a frontend engineer focused on building clean, performant web experiences. This page is a professional branding sample for the FrontEndWorkshop assignment.) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Selected highlights:) Tj
+0 -16 Td
+(- Design systems and component libraries for accessible products) Tj
+0 -16 Td
+(- Performance-driven single-page apps) Tj
+0 -16 Td
+(- Mentoring and workshops teaching HTML/CSS/React) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Contact:) Tj
+0 -16 Td
+(robbiem@example.com) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Repository \(replace with your repo URL after publishing\): https://github.com/YOUR-USERNAME/YOUR-REPO) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Generated: 2026-02-02T21:15:37.679728 UTC) Tj
+0 -16 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000247 00000 n 
+0000000317 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1242
+%%EOF

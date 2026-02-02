@@ -1,89 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>My Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Robbie McCutcheon — Frontend Workshop Branding</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
-    <h1 class="myh1">Mohammad Abu Shattal, Ph.D.</h1>
-    <img class="myImage" src="mas.png" >
+    <div class="site">
+      <header class="site-header">
+        <div class="brand">
+          <img class="logo" src="mas.png" alt="Brand logo">
+          <div>
+            <h1>Robbie McCutcheon</h1>
+            <p class="tag">Frontend Engineer • UI Design • Accessibility</p>
+          </div>
+        </div>
+        <nav class="site-nav">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+          <!-- After you publish the repo to GitHub, replace the URL below with your repository URL -->
+          <a class="repo-link" href="https://github.com/YOUR-USERNAME/YOUR-REPO" target="_blank" rel="noopener">View on GitHub</a>
+        </nav>
+      </header>
 
-    <br>
-    <a href="http://www.abushattal.com">Visit my personal website</a> 
-    <br>
-    <a href="page2.html"> Test Javascript</a>
-      <br>
-    <p class="myP" >Dr. Abu Shattal (S'16-M'18) received B.Sc. in Computer Engineering from Yarmouk University, Irbid - Jordan, 2006 and M.S. in Communications Engineering from Mutah University, AlKarak - Jordan, 2011. He received his Ph.D. in Electrical and Computer Engineering from Western Michigan University (WMU), Kalamazoo, Michigan in 2017. Dr. Abu Shattal serves as a Program Chair of BS in Cloud Computing and as a Lead Faculty of IT in the Department of Computing Sciences and Mathematics at Franklin University. Previously, Dr. Abu Shattal served at The Ohio State University as Post Doctoral Researcher with the ElectroScience Lab in the Department of Electrical and Computer Engineering and as a Senior Lecturer in the Department of Computer Science Engineering. Dr. Abu Shattal is a member of IEEE and ACM and he is a Microsoft Certified System Administrator (MCSA), Professional (MCP), and Trainer (MCT). He serves as a Peer Reviewer for several journals such as IEEE Transactions on Vehicular Technology, IEEE Access, IEEE Communications Letters, and IEEE Wireless Communications Letters. He is also a TPC member of internationally recognized conferences such as IEEE VTC 2018-2019, IEEE COMMNET, and BROADNETs 2018-2020. </p>
-<hr>
-<h2 > Education</h2>
-    <ul>
-      <li><strong>Ph.D. in Electrical and Computer Engineering</strong>, 
-  Western Michigan University
-    Kalamazoo, MI 49008, USA. 2017
-  Dissertation Title: Bio-Socially Inspired Strategies in Support of Dynamic Spectrum Access: An Evolutionary Game Theory Perspective.
-</li>
-<li>
-  <strong>MS. in Communications Engineering</strong>, 
-Mutah University
+      <main class="site-main">
+        <section id="about" class="panel hero">
+          <h2>Hello — I build thoughtful, accessible UIs</h2>
+          <p>
+            I'm a frontend engineer focused on building clean, performant web experiences.
+            This page is a compact professional brand: portfolio summary, highlights, and contact information.
+          </p>
+          <p class="cta">
+            <a class="button" href="#work">See my work</a>
+            <a class="button ghost" href="branding_page.pdf" target="_blank">Download PDF</a>
+          </p>
+        </section>
 
-AlKarak, Jordan, 2011.
+        <section id="work" class="panel">
+          <h3>Selected highlights</h3>
+          <ul>
+            <li>Design systems and component libraries for accessible products</li>
+            <li>Performance-driven single-page apps</li>
+            <li>Mentoring and workshop experience teaching HTML/CSS/React</li>
+          </ul>
+        </section>
 
-Thesis title: Bluetooth Data Exchange over WLAN 802.11b: Analysis and Simulation of Bluetooth WLAN Integrated Network.
+        <section id="contact" class="panel">
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:robbiem@example.com">robbiem@example.com</a></p>
+          <p>LinkedIn: <a href="#">(replace with your LinkedIn)</a></p>
+          <p>GitHub: <a href="https://github.com/YOUR-USERNAME/YOUR-REPO" target="_blank">github.com/YOUR-USERNAME/YOUR-REPO</a></p>
+        </section>
+      </main>
 
-   
-    <li>
-<strong>B.Sc. in Computer Engineering, </strong>
-Yarmouk University
-
-Irbid, Jordan,  2006.
-  </li>
-    </ul>
-<h2 > Publications</h2>
-
-<ol>
-  <li> 
-    M. Abu Shattal, A. Al-Fuqaha, B. Khan, A. Wisniewska, K. Dombrowski, “Evolution of Bio-Socially Inspired Strategies in Support of Dynamic Spectrum Access ,” IEEE ICC 2017, Workshop on Flexible Networks (FlexNets), Paris, France, May 21-25, 2017.
-  </li>
-  <li>
-    M. Abu Shattal, A. Wisniewska, A. Al-Fuqaha, B. Khan, K. Dombrowski, “Evolutionary Game Theory Perspective on Dynamic Spectrum Access Etiquette,” IEEE Access, 2018.  </li>
-
-  <li>
-    M. Abu Shattal, A. Wisniewska, B. Khan, A. Al-Fuqaha, K. Dombrowski, “From Channel Selection to Strategy Selection: Enhancing VANETs using Foraging and Deference,” IEEE Transactions on Vehicular  Technology, 2018.
-  </li>
-</ol>
-<h2> Interests </h2>
-  <p></p>
-
-  
-    <table id="mytable">
-      <tr>     <th>Research Interest</th>         <th>Teaching Interests</th>      </tr>
-      <tr>     <td>Wireless Communication</td>    <td>Wireless Communications</td>      </tr>
-      <tr>     <td>Dynamic Spectrum Access</td>   <td>Communications Systems</td> </tr>
-      <tr>     <td>  Internet of Things   </td>   <td>Cloud Computing   </td>  </tr>
-      <tr>     <td> Vehicular Networks    </td>   <td> Computer Networks </td>   </tr>
-      <tr>     <td>  Cognitive Radar  </td>       <td> Computer Programming (C/C++ and Python) </td> </tr>
-    </table>
-<br>
-<h3>Please send me your feedback:</h3>
-    <form action="index.html" method="get">
-      <label for="username">Email:</label>
-      <input type="text" id="email" name="email" value="abushattal@ieee.org">
-      <br>
-      <label for="feedback: ">Feedback:  </label>
-      <input  id="feedback" name="feedback" value="This is a sample website"/>
-      <br>
-      <input id="mybutton" type="submit" value="Submit">
-    </form> 
-
-
-    <button id="button2" > ClickMe
-    </button>
-    <textarea id="myTextArea" rows="5" cols="50">
-      </textarea>
+      <footer class="site-footer">
+        <p>&copy; <span id="year"></span> Robbie McCutcheon — Built for FrontEndWorkshop</p>
+      </footer>
     </div>
 
-    
-    <script src="myscripts.js"> </script>
+    <script>
+      // Small helper to update year
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>

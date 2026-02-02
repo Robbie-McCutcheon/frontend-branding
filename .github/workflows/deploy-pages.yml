@@ -1,0 +1,43 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare site directory
+        run: |
+          # create a clean site directory containing only files we want published
+          rm -rf site || true
+          mkdir site
+          # copy root files that make up the static site
+          cp -v index.html style.css branding_page.pdf site/ || true
+          # copy font and any top-level assets if present
+          if [ -d "font" ]; then cp -r font site/; fi
+          # copy any assets from a CRA-style `frontend-branding/public` if present
+          if [ -d "frontend-branding/public" ]; then cp -r frontend-branding/public/* site/ || true; fi
+
+      - name: Build step (none required)
+        run: |
+          echo "No build step; using prepared site directory"
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v3
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: site
+
+      # After the artifact is uploaded, GitHub Pages will automatically deploy it

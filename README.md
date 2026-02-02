@@ -37,3 +37,4 @@ Notes and how to improve
 - The generated PDF is a simple text snapshot intended to give you an immediate PDF file without external dependencies. For pixel-perfect (CSS-rendered) PDFs, use a headless browser (Puppeteer) or `wkhtmltopdf`.
 - After publishing to GitHub, you can also enable GitHub Pages in the repository settings to publish the static site and link that URL on the page.
 # frontend-branding
+# frontend-branding
